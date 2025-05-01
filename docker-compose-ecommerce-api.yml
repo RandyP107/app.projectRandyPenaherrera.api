@@ -1,0 +1,20 @@
+services:
+  proyecto-ecommerce:
+    container_name: proyectoEcommerce-Randy
+    image: ecommerce-api:v1
+    build:
+      context: .
+      dockerfile: Dockerfile
+      args:
+        PROJECT_NAME: app.projectRandyPenaherrera.api
+    ports:
+      - "8081:81"
+    networks:
+      - net-app-distri
+    environment:
+      - ASPNETCORE_ENVIRONMENT=docker
+
+networks:
+  net-app-distri:
+    name: netappdistri
+    external: true

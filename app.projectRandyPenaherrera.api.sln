@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35919.96 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "app.projectRandyPenaherrera.api", "app.projectRandyPenaherrera.api\app.projectRandyPenaherrera.api.csproj", "{B4E80467-A081-4EC9-A22C-3F74D68529D8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "app.projectRandyPenaherrera.common", "app.projectRandyPenaherrera.common\app.projectRandyPenaherrera.common.csproj", "{7CCC2B43-C6D6-4DF6-9FCF-7E34D6A49393}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "app.projectRandyPenaherrera.DataAccess", "app.projectRandyPenaherrera.DataAccess\app.projectRandyPenaherrera.DataAccess.csproj", "{D2D5DEDD-855E-483E-9B8B-F774CF1CD6D6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "app.projectRandyPenaherrera.Entities", "app.projectRandyPenaherrera.Entities\app.projectRandyPenaherrera.Entities.csproj", "{09700145-58DB-47FF-966C-9B37F9F3F619}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "app.projectRandyPenaherrera.services", "app.projectRandyPenaherrera.services\app.projectRandyPenaherrera.services.csproj", "{5C15F249-2750-4BD9-ACAC-485E23E54563}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B4E80467-A081-4EC9-A22C-3F74D68529D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4E80467-A081-4EC9-A22C-3F74D68529D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4E80467-A081-4EC9-A22C-3F74D68529D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4E80467-A081-4EC9-A22C-3F74D68529D8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7CCC2B43-C6D6-4DF6-9FCF-7E34D6A49393}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7CCC2B43-C6D6-4DF6-9FCF-7E34D6A49393}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7CCC2B43-C6D6-4DF6-9FCF-7E34D6A49393}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7CCC2B43-C6D6-4DF6-9FCF-7E34D6A49393}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D2D5DEDD-855E-483E-9B8B-F774CF1CD6D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2D5DEDD-855E-483E-9B8B-F774CF1CD6D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2D5DEDD-855E-483E-9B8B-F774CF1CD6D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D2D5DEDD-855E-483E-9B8B-F774CF1CD6D6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{09700145-58DB-47FF-966C-9B37F9F3F619}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{09700145-58DB-47FF-966C-9B37F9F3F619}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{09700145-58DB-47FF-966C-9B37F9F3F619}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{09700145-58DB-47FF-966C-9B37F9F3F619}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5C15F249-2750-4BD9-ACAC-485E23E54563}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C15F249-2750-4BD9-ACAC-485E23E54563}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C15F249-2750-4BD9-ACAC-485E23E54563}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C15F249-2750-4BD9-ACAC-485E23E54563}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {41557513-7C6B-4177-BEFD-BDC71FFD9D59}
+	EndGlobalSection
+EndGlobal
